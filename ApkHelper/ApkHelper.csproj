@@ -63,6 +63,9 @@
   <PropertyGroup>
     <SignManifests>true</SignManifests>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icons8-orca-80.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="AndroidXml, Version=1.1.0.0, Culture=neutral, PublicKeyToken=83c484145c9f9ac8, processorArchitecture=MSIL">
       <HintPath>..\packages\AndroidXml.1.1.24\lib\netstandard2.0\AndroidXml.dll</HintPath>
@@ -142,6 +145,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icons8-orca-80.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
